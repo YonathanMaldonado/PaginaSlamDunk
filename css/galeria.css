@@ -1,5 +1,11 @@
 @import url(banner.css);
 @import url(menu.css);
-@import url(fontello.css);
+@import url(blog.css);
+@import url(historia.css);
+@import url(info.css);
 
-
+.contenedor a{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}

@@ -31,3 +31,10 @@
     font-size: 15px;
     color: black;
 }
+
+#blog article h4{
+    text-align: center;
+    font-family: monospace;
+    justify-content: center;
+    font-size: 15px;
+}
