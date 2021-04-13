@@ -23,13 +23,13 @@ h1{
 }
 
 .contenedor{
-    width: 98%;
+    width: auto;
     margin: auto;
 }
 
 footer .contenedor{
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     font-family: monospace;
     width: 80%;
 }
