@@ -7,15 +7,20 @@
     <title>SlamDunk</title>
     <meta name= "autor" content="Yonathan Maldonado"> 
     <meta name= "descripcion" content="Pagina sobre Slam Dunk">
-    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+
      
 </head>
 <body>
     <header>
-        <div>
-            <img src="img/slamdunk.png" alt="SlamDunk">
+        <div class="contenedor">
+            <h1 class="icon-dribbble-circled">SlamDunk</h1>
+            <input type="checkbox" name="" id="menu-bar">
+            <label class="icon-cd" for="menu-bar"></label>
         
-            <nav>
+            <nav class="menu">
                 <a href="index.html">Inicio</a>
                 <a href="shohoku.html">Shohoku</a>
                 <a href="personajes.html">Personajes Obra</a>
@@ -28,11 +33,69 @@
 
     </header>
     <main>
+        <section id="banner">
+            <img src="img/bannerprincipal.png" alt="bannerprincipal">
+            <div class="contenedor">
+                <h2>Serie de culto</h2>
+                <h3>La obra de Takehiro Inoue</h3>
+            </div>
+        </section>
+
+        <section id= "historia">
+            <h2>Galeria de imagenes</h2>
+        </section>
+
+        <section id="blog">
+            <div class="contenedor">
+                <article>
+                    <a href="img/imagen1.png" data-lightbox="imagenes">
+                    <img src="img/imagen1.png" alt="imagen1"></a>
+                    <h4>Hanamichi Sakuragi</h4>               
+                </article>
+                <article>
+                    <a href="img/imagen2.png" data-lightbox="imagenes">
+                    <img src="img/imagen2.png" alt="imagen2"></a>
+                    <h4>Hanamichi Sakuragi - Manga</h4>              
+                </article>
+                <article>
+                    <a href="img/imagen3.png" data-lightbox="imagenes">
+                    <img src="img/imagen3.png" alt="imagen3"></a>
+                    <h4>Equipo Shohoku entrenando</h4>              
+                </article>
+                <article>
+                    <a href="img/imagen4.png" data-lightbox="imagenes">
+                    <img src="img/imagen4.png" alt="imagen4"></a>
+                    <h4>Sakuragi-Hakagi</h4> 
+                </article>
+                <article>
+                    <a href="img/imagen5.png" data-lightbox="imagenes">
+                    <img src="img/imagen5.png" alt="imagen5"></a>
+                    <h4>Shohoku completo</h4>
+                </article>
+                <article>
+                    <a href="img/imagen6.png" data-lightbox="imagenes">
+                    <img src="img/imagen6.png" alt="imagen6"></a>
+                    <h4>Rukawa-Sakurigi manga</h4>
+                </article>
+                <article>
+                    <a href="img/imagen7.png" data-lightbox="imagenes">
+                    <img src="img/imagen7.png" alt="imagen7"></a>
+                    <h4>Shohoku</h4>
+                </article>
+                <article>
+                    <a href="img/imagen8.png" data-lightbox="imagenes">
+                    <img src="img/imagen8.png" alt="imagen8"></a>
+                    <h4>Sakuragi manga</h4>
+                </article>
+            </div>
+        </section>
         
     </main>
     <footer>
-
+        <div class="contenedor">
+            <p>SlamDunk - Desarrollo Web</p>
+        </div>
     </footer>
-    
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>

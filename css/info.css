@@ -1,0 +1,26 @@
+
+#info{
+    background: rgb(194, 59, 59);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: monospace;
+}
+
+#info .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-jugadores img{
+    width: 180;
+    height: 180; 
+    border: solid 7px black;
+    border-radius: 70px;
+}
+
+.info-jugadores{
+    margin: 20px;
+}
+

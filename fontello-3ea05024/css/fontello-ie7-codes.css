@@ -1,0 +1,5 @@
+
+.icon-dribbble-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-dribbble-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-cd { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-dribbble { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17d;&nbsp;'); }
