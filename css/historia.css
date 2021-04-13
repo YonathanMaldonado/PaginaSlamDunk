@@ -4,3 +4,17 @@
     margin: 20px 0px;
     font-size: 20px;
 }
+
+#historia-shohoku{
+    width: auto;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    border: 5px solid rgb(194, 59, 59);
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
