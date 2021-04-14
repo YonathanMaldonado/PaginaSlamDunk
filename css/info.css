@@ -24,3 +24,36 @@
     margin: 20px;
 }
 
+.contenedor-kainan{
+    background: rgb(194, 59, 59);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}    
+
+.contenedor-kainan .info-jugadores img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+
+.contenedor-entrenadores{
+    background: rgb(194, 59, 59);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-entrenadores .info-jugadores img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
