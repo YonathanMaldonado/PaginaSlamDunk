@@ -3,6 +3,15 @@
     text-align: center;
     margin: 20px 0px;
     font-size: 20px;
+    border: 5px solid rgb(194, 59, 59);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#historia-shohoku h2{
+    margin: 10px;
+    padding: 10px;
 }
 
 #historia-shohoku{
@@ -15,6 +24,5 @@
     border: 5px solid rgb(194, 59, 59);
     border-radius: 15px;
     padding: 20px;
-
 }
 

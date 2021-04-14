@@ -12,8 +12,8 @@
 }
 
 #blog .contenedor img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: solid 8px tomato;
     border-radius: 15px;
 }
@@ -61,7 +61,7 @@
     
 }
 
-.contenedor-shohoku ul{
-    font-size: 20px;
-    margin: 15px;
+.contenedor-shohoku li{
+    font-size: 15px;
+    margin: 10px;
 }

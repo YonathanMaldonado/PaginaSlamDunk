@@ -18,7 +18,7 @@ header label{
     height: 100vh;
     background: rgb(194, 59, 59, 0.7);
     transform: translateX(-100%);
-    transition: 1.5s;
+    transition: 1.8s;
 }
 
 .menu a{
@@ -28,6 +28,13 @@ header label{
     height: 30px;
     padding: 10px;
     border-bottom: solid 1px rgb(255, 255, 255, 0.3);
+    font-family: monospace;
+    border-radius: 30px;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 40px;
 }
 
 .menu a:hover{
@@ -50,6 +57,7 @@ header label{
     }
     .menu a{
         border: none;
+        
     }
 
     header label{

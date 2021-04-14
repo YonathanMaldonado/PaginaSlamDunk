@@ -3,12 +3,13 @@
 
 #banner img{
     width: 100%;
-    height: 650px;
+    height: 550px;
+    align-items: center;
 }
 
 #banner .contenedor{
     position: absolute;
-    top: 120px;
+    top: 80px;
     left: 50px;
     color: white;
     font-family: monospace;
