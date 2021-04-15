@@ -3,6 +3,7 @@
 @import url(historia.css);
 @import url(blog.css);
 @import url(info.css);
+@import url(tablas.css);
 
 *{
     margin: 0;
@@ -40,4 +41,5 @@ footer .contenedor img{
     align-items: center;
     margin: 15px;
 }
+
 

@@ -134,3 +134,20 @@
     justify-content: center;
     align-items: center;
 }
+
+#contenedor-tablas table{
+    margin: 150px auto;
+	width: 600px;
+}
+
+#contenedor-tablas > h4{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+
+
+
