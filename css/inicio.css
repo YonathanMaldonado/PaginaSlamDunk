@@ -31,7 +31,13 @@ footer .contenedor{
     text-align: center;
     padding: 30px;
     font-family: monospace;
-    width: 80%;
     font-size: 20px;
+}
+
+footer .contenedor img{
+    width: 50px;
+    float: right;
+    align-items: center;
+    margin: 15px;
 }
 

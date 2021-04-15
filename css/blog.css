@@ -15,9 +15,34 @@
     width: 200px;
     height: 200px;
     border: solid 8px tomato;
-    border-radius: 15px;
+    border-radius: 30px;
+    
 }
 
+#blog .contenedor-galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+#blog .contenedor-galeria img{
+    width: 200px;
+    height: 200px;
+    border: solid 8px rgb(194,59,59);
+    border-radius: 160px;
+    margin: 15px;
+
+    
+}
+
+#blog .contenedor-galeria img:hover{
+    border-radius: 0;
+    transform: scale(1.5);
+    transition: 0.5s;
+    
+
+}
 #blog article{
     margin: 50px;
 }
@@ -41,7 +66,8 @@
 
 #blog .contenedor img{
     border: solid 5px rgb(194,59,59);
-    border-radius: 35px;
+    border-radius: 105px;
+    margin: 30px;
 }
 
 #blog .contenedor-shohoku{
@@ -64,4 +90,47 @@
 .contenedor-shohoku li{
     font-size: 15px;
     margin: 10px;
+}
+
+#slamdunk img{
+    width: 150px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#blog .contenedor-manganime{
+    width: auto;
+    margin: 20px;
+    text-align: center;
+    vertical-align:auto;
+    font-family: monospace;
+    border: solid 5px rgb(194,59,59);
+    border-radius: 15px;
+    font-size: 30px;
+
+}
+
+#blog .contenedor-manganime img{
+    width: 250px;
+    border-radius: 15px;
+}
+
+#blog .contenedor-manganime h5{
+    font-size: 40px;
+    margin: 15px;
+    color: tomato;
+    
+}
+
+#blog .contenedor-redessociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#blog .contenedor-redessociales img{
+    width: 180px;
+    justify-content: center;
+    align-items: center;
 }
