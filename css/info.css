@@ -20,6 +20,14 @@
     border-radius: 70px;
 }
 
+.info-jugadores img:hover{
+    box-shadow: 0px 0px 10px 10px white;
+    transition: 0.5s;
+    filter: blur(1px);
+    filter: grayscale(95%);
+
+}
+
 .info-jugadores{
     margin: 20px;
 }
