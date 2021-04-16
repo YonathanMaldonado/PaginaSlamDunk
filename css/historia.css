@@ -28,5 +28,11 @@
 
 #historia img{
     margin: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
