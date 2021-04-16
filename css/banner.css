@@ -3,10 +3,13 @@
 
 #banner img{
     width: 80%;
-    margin: auto;
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    
 }
 
 #banner .contenedor{
@@ -23,7 +26,7 @@
 
 
 #banner h2{
-    font-size: 29px;
+    font-size: 22px;
 }
 
 #banner a{
@@ -32,10 +35,10 @@
     border-radius: 20px;
     display: block;
     width: 100px;
-    margin-top: 15px;
+    margin-top: 8px;
     text-decoration: none;
     color: white;
-    padding: 12px;
+    padding: 15px;
     color:black;
     font-size: 15px;
 
