@@ -58,6 +58,7 @@ h1{
         float: right;
         display: flex;
         transform: translateX(0);
+
     }
     .menu a{
         border: none;
@@ -67,4 +68,13 @@ h1{
     header label{
         display: none;
     }
+}
+
+@media (max-width:1024px){
+
+    #banner .contenedor{
+        display: none;
+    }
+
+    
 }
