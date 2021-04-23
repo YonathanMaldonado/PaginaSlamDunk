@@ -7,6 +7,7 @@ table{
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	font-family: monospace;
 }
 
 th, td{
@@ -27,3 +28,4 @@ tr:hover td{
 	background-color: rgba(194, 59, 59, 0.493);
 	color: white;
 }
+

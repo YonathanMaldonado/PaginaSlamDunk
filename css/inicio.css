@@ -42,4 +42,46 @@ footer .contenedor img{
     margin: 15px;
 }
 
+#contenedor-shohoku img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#blog .contenedor-shohoku h5{
+    color: tomato;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenedor-personajes{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#blog .contenedor-personajes img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blog .contenedor-personajes h5{
+    font-family: monospace;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    color: tomato;
+}
+
+#blog .contenedor-personajes h6{
+    font-family: monospace;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
