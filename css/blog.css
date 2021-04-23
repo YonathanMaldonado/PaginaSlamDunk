@@ -116,19 +116,22 @@
     border: solid 5px rgb(194,59,59);
     border-radius: 15px;
     font-size: 30px;
-
 }
 
-#blog .contenedor-manganime img{
-    width: 250px;
+#blog .contenedor-manganime article img{
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 #blog .contenedor-manganime h5{
     font-size: 40px;
     margin: 15px;
-    color: tomato;
-    
+    color: tomato; 
 }
 
 
@@ -167,6 +170,8 @@
     margin-right: auto;
 }
 
-
+#historia-shohoku div img{
+    width: 150px;
+}
 
 
