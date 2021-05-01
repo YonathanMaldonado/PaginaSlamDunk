@@ -89,7 +89,10 @@
     border-radius: 15px;
     font-size: 30px;
 }
-
+.contenedor-shohoku h3{
+    margin: 30px;
+    
+}
 
 .contenedor-shohoku h5{
     margin: 10px;

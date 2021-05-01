@@ -30,7 +30,12 @@ function validaFecha() {
     console.log('Nueva Fecha Usuario:' + fechaNuevaUsuario);
     /////////////////////////////////////////////
     if (fechaNuevaUsuario > fechaSistema) {
-        alert('fecha incorrecta, fecha usuario mayor a la del sistema');
+        //alert('fecha incorrecta, fecha usuario mayor a la del sistema');
+        Swal.fire({
+            icon: 'error',
+            title: 'FECHA DE NACIMIENTO',
+            text: 'Fecha incorrecta, la fecha del usuario es mayor a la del sistema',
+          });
         return false;
     }
     /////////////////////////////////////////////
@@ -40,7 +45,12 @@ function validaFecha() {
     var anos = Math.trunc(dife/365);
     console.log('Años:' + anos);
     if (anos < 18) {
-        alert('Es menos de edad, solo tiene ' + anos + ' años.');
+        //alert('Es menos de edad, solo tiene ' + anos + ' años.');
+        Swal.fire({
+            icon: 'error',
+            title: 'FECHA DE NACIMIENTO',
+            text: 'Es menos de edad, el usuario solo tiene ' + anos + ' años.',
+          });
         return false;
     }
     ////////////////////////////////////////////
@@ -50,7 +60,12 @@ function validaFecha() {
 function ValidarRut() {
     var rut = document.getElementById('txtRut').value;
     if (rut.trim().length==0) {
-        alert('rut en blanco');
+        //alert('rut en blanco');
+        Swal.fire({
+            icon: 'error',
+            title: 'VALIDACIÓN DEL RUT',
+            text: 'EL RUT ESTÁ EN BLANCO',
+          });
         return false;
     }
     console.log('Rut:' + rut);
@@ -78,7 +93,12 @@ function ValidarRut() {
     }
     var dv_usuario = rut.slice(-1).toUpperCase();
     if (dv != dv_usuario) {
-        alert('rut incorrecto');
+        //alert('rut incorrecto');
+        Swal.fire({
+            icon: 'error',
+            title: 'VALIDACIÓN DEL RUT',
+            text: 'RUT INCORRECTO',
+          });
         return false;
     }
     console.log(dv);

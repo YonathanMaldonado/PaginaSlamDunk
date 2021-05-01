@@ -31,7 +31,6 @@ header label{
     padding: 10px;
     border-bottom: solid 1px rgb(255, 255, 255, 0.3);
     font-family: monospace;
-    border-radius: 8px;
     font-size: 15px;
 }
 
@@ -48,6 +47,28 @@ h1{
 
 #menu-bar:checked~.menu{
     transform: translateX(0);
+}
+
+ul.submenu{
+    /*display: none;*/
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background-color: rgb(194, 59, 59);
+    left: 27%;
+    top: 50px;
+    color: white;
+    text-decoration: none;
+    border-bottom: solid 1px rgb(255, 255, 255, 0.3);
+    font-family: monospace;
+    font-size: 15px;
+    width: 19%;
+}
+
+
+ul.submenu li{
+    margin: 0;
 }
 
 @media (min-width:1024px){
